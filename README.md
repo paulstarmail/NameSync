@@ -1,6 +1,6 @@
 # NameSync
 
-Windows 10 application to aid file/folder syncing.
+Windows 10 64-bit application to aid file/folder syncing.
 
 You might have come across situations where in you had a backup of your files/folders in a computer (Sink) which you do not use much, and without network perhaps. You might want to compare whether all the files/folders in your main computer (Source) that you use more is in backup Sink computer.
 Well, "NameSync" let's you do just that. You can think of it as a primitive "git". It checks whether all files/folders in Source are present in Sink. Beware, NameSync checks only the names and not the modifications that the files/folders might have. Follow the below steps to give it a try.
