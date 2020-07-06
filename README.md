@@ -10,7 +10,7 @@ Well, "NameSync" let's you do just that. You can think of it as a primitive "git
 3. Run "Source.exe" in the folder.
 4. Carefully read "SyncInfo.xlsx" and manually copy disparity files/folders from Source computer to Sink computer.
 
-The versions of softwares used are as given below.
+The versions of softwares used, are as given below.
 
 python version:   Python 3.8.3
 pip3 version:     pip 20.1.1
