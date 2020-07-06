@@ -12,6 +12,4 @@ Well, "NameSync" let's you do just that. You can think of it as a primitive "git
 
 The versions of softwares used, are as given below.
 
-python version:   Python 3.8.3
-pip3 version:     pip 20.1.1
-openpyxl version: 3.0.4
+python version: Python 3.8.3, pip3 version: pip 20.1.1, openpyxl version: 3.0.4
