@@ -3,6 +3,7 @@
 Windows 10 64-bit application to aid file/folder syncing.
 
 This software compares names of files/folders in two seperate locations in same computer or different computers. Then it comes up with an Excel file ("SyncInfo.xlsx") that informs the files/folders to be copied between the locations/computers to make both of them in sync.
+
 Beware, this software compares only the names and not their contents. So, files with same name but different modifications will not be detected.
 
 Steps to run the software
