@@ -2,16 +2,20 @@ import os, openpyxl, winsound, ctypes
 from openpyxl.styles import Alignment
 
 pwd = str(os.getcwd())
-delete = len(pwd) + 1  # 1 for deleting "\"
+len_pwd = len(pwd)
+if len_pwd == 3:  # If pwd is a drive and not a directory
+    delete = 3  # Deleting drive letter and "\", for example "E:\"
+else:  # If inside a directory
+    delete = len_pwd+1
 entries = []
-for r, d, f in os.walk(pwd):  # r=>root, d=>directories, f=>files
+for p, d, f in os.walk(pwd):  # p=>same as pwd, d=>directories, f=>files
     for item in d:
-        temp = str(os.path.join(r, item))
-        entries.append(temp[delete:])  # Making the abs. path to relative path
-    for item in f:
-        temp = str(os.path.join(r, item))
+        temp = str(os.path.join(p, item))  # abs. path
         entries.append(temp[delete:])
-entries.sort()    
+    for item in f:
+        temp = str(os.path.join(p, item))
+        entries.append(temp[delete:])
+entries.sort()     
 
 #### Comp_2 ####
 
