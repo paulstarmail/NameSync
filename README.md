@@ -1,6 +1,6 @@
 # NameSync
 
-Windows 10 64-bit application to aid file/folder syncing.
+Windows 11 64-bit application to aid file/folder syncing.
 
 This software compares names of files/folders in two seperate locations in same computer or different computers. Then it comes up with an Excel file ("SyncInfo.xlsx") that informs the files/folders to be copied between the locations/computers to make both of them in sync.
 
@@ -15,4 +15,4 @@ Steps to run the software
 
 The versions of softwares used, are as given below.
 
-python version: Python 3.8.3, pip3 version: pip 20.1.1, openpyxl version: 3.0.4
+python version: Python 3.10.2, pip3 version: pip 22.0.4, openpyxl version: 3.0.9
