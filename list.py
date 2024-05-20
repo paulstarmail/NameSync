@@ -22,7 +22,7 @@ entries.sort()
 
 wb = Workbook()
 ws = wb.active
-ws.title = "Comp_1"
+ws.title = "Tree"
 ws.cell(row=2, column=1, value="Sl. No.")
 ws.cell(row=2, column=2, value="Entry")
 for i in range(len(entries)):
@@ -43,7 +43,7 @@ for col in ws.columns:
     ws.column_dimensions[column].width = adjusted_width
 
 ws.merge_cells("A1:B1")  # Merging cells after setting optimal column width. Otherwise .column_letter wont return anything.
-ws.cell(row=1, column=1, value="Entries in Comp_1")
+ws.cell(row=1, column=1, value="Entries in the tree")
 
 wb.save("SyncInfo.xlsx")
 os.system("notify-send \"SyncInfo.xlsx, created!\"")
